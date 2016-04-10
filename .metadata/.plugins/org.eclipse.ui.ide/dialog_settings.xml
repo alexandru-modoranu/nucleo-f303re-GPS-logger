@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\prg\prj\github\nucleo-f303re-ChibiOS-RT-template\tools\eclipse"/>
+			<item value="C:\prehd\prj\other\github\ChibiOS-master\demos\STM32\RT-STM32F401RE-NUCLEO"/>
+			<item value="C:\prehd\prj\other\github\ChibiOS-master\demos\STM32\RT-STM32F334R8-NUCLEO"/>
+			<item value="C:\prehd\prj\other\github\nucleo-f303re-ChibiOS-RT-template-master\tools"/>
+			<item value="C:\prehd\prj\other\github\nucleo-f303re-ChibiOS-RT-template-master\mc_sw\etools"/>
+			<item value="C:\prehd\prj\other\github\nucleo-f303re-ChibiOS-RT-template-master\tools\eclipse"/>
+			<item value="C:\prehd\prj\other\bck\tools"/>
+			<item value="C:\prehd\prj\other\bck\tools\eclipse"/>
+			<item value="C:\prehd\prj\other\bck"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="C:\prehd\prj\other\github\nucleo-f303re-ChibiOS-RT-template-master\mc_sw\etools" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/sc/ChibiOS/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/cfg/os/chconf.h&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/appl/misc/SoftwareTimer.h&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/cfg/hal/halconf.h&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/etools/buildopt&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/appl/userinterface/main.c&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/cfg/hal/mcuconf.h&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/nucleo-f303re-ChibiOS-RT-template/mc_sw/sc/ChibiOS/os/hal/include/hal_uart.h&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="493" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="523" key="DIALOG_HEIGHT"/>
+			<item value="367" key="DIALOG_X_ORIGIN"/>
+			<item value="94" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

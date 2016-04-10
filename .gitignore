@@ -1,0 +1,9 @@
+# Ignore list
+
+*.d
+*.o
+*.log
+*.warn
+*.error
+obj/
+tmp/
