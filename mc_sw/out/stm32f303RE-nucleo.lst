@@ -1,6 +1,6 @@
 
-c:/prehd/prj/other/github/nucleo-f303re-GPS-logger-master/mc_sw/out/stm32f303RE-nucleo.elf:     file format elf32-littlearm
-c:/prehd/prj/other/github/nucleo-f303re-GPS-logger-master/mc_sw/out/stm32f303RE-nucleo.elf
+d:/prg/prj/github/nucleo-f303re-GPS-logger/mc_sw/out/stm32f303RE-nucleo.elf:     file format elf32-littlearm
+d:/prg/prj/github/nucleo-f303re-GPS-logger/mc_sw/out/stm32f303RE-nucleo.elf
 architecture: arm, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
 start address 0x080001d1
@@ -64,25 +64,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS
  23 .heap         0000de90  20002170  20002170  00020000  2**0
                   ALLOC
- 24 .debug_info   000035c2  00000000  00000000  00011270  2**0
+ 24 .debug_info   00003590  00000000  00000000  00011270  2**0
                   CONTENTS, READONLY, DEBUGGING
- 25 .debug_abbrev 00000649  00000000  00000000  00014832  2**0
+ 25 .debug_abbrev 00000649  00000000  00000000  00014800  2**0
                   CONTENTS, READONLY, DEBUGGING
- 26 .debug_loc    00000fbd  00000000  00000000  00014e7b  2**0
+ 26 .debug_loc    00000fbd  00000000  00000000  00014e49  2**0
                   CONTENTS, READONLY, DEBUGGING
- 27 .debug_aranges 00000160  00000000  00000000  00015e38  2**3
+ 27 .debug_aranges 00000160  00000000  00000000  00015e08  2**3
                   CONTENTS, READONLY, DEBUGGING
- 28 .debug_ranges 00000a70  00000000  00000000  00015f98  2**0
+ 28 .debug_ranges 00000a70  00000000  00000000  00015f68  2**0
                   CONTENTS, READONLY, DEBUGGING
- 29 .debug_line   00001509  00000000  00000000  00016a08  2**0
+ 29 .debug_line   0000139f  00000000  00000000  000169d8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 30 .debug_str    000011b6  00000000  00000000  00017f11  2**0
+ 30 .debug_str    000011b6  00000000  00000000  00017d77  2**0
                   CONTENTS, READONLY, DEBUGGING
- 31 .comment      0000006e  00000000  00000000  000190c7  2**0
+ 31 .comment      0000006e  00000000  00000000  00018f2d  2**0
                   CONTENTS, READONLY
- 32 .ARM.attributes 00000037  00000000  00000000  00019135  2**0
+ 32 .ARM.attributes 00000037  00000000  00000000  00018f9b  2**0
                   CONTENTS, READONLY
- 33 .debug_frame  00000430  00000000  00000000  0001916c  2**2
+ 33 .debug_frame  00000430  00000000  00000000  00018fd4  2**2
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 20000000 l    d  .mstack	00000000 .mstack
@@ -255,10 +255,10 @@ SYMBOL TABLE:
 08001100 l     O .rodata	00000080 ram_areas
 20001988 l     O .bss	00000158 ch_idle_thread_wa
 08001180 l     O .rodata	000000f0 _stm32_dma_streams
-00000000 l    df *ABS*	00000000 c:/prehd/prj/other/github/nucleo-f303re-GPS-logger-master/mc_sw/obj/chcoreasm_v7m.o
+00000000 l    df *ABS*	00000000 d:/prg/prj/github/nucleo-f303re-GPS-logger/mc_sw/obj/chcoreasm_v7m.o
 e000ed04 l       *ABS*	00000000 SCB_ICSR
 10000000 l       *ABS*	00000000 ICSR_PENDSVSET
-00000000 l    df *ABS*	00000000 c:/prehd/prj/other/github/nucleo-f303re-GPS-logger-master/mc_sw/obj/crt0_v7m.o
+00000000 l    df *ABS*	00000000 d:/prg/prj/github/nucleo-f303re-GPS-logger/mc_sw/obj/crt0_v7m.o
 08000238 l       .text	00000000 msloop
 08000246 l       .text	00000000 psloop
 08000256 l       .text	00000000 dloop
@@ -2922,7 +2922,7 @@ void hal_lld_init(void) {
  8000ad4:	6a9a      	ldr	r2, [r3, #40]	; 0x28
  8000ad6:	f04f 31ff 	mov.w	r1, #4294967295
  8000ada:	2200      	movs	r2, #0
-//#include "UartHndlr.h"
+#include "hal.h"
 
 /*
  * Application entry point.
