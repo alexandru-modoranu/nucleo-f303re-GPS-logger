@@ -5,8 +5,8 @@
 *.log
 *.warn
 *.error
-mc_sw/obj
-mc_sw/tmp
+/mc_sw/obj
+/mc_sw/tmp
 
 # This should be downloaded from the buildtools git and added to the project with updated paths
-mc_sw/etools/StartTs.cmd
+/**/StartTs.cmd
