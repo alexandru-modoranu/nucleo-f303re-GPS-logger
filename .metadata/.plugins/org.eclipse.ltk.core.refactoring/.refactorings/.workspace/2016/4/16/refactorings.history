@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;nucleo-f303re-ChibiOS-RT-template&apos;" deleteContents="false" description="Delete resource &apos;nucleo-f303re-ChibiOS-RT-template&apos;" element1="/nucleo-f303re-ChibiOS-RT-template" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1460315208254"/>
-</session>

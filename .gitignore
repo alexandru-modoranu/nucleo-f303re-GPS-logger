@@ -7,3 +7,4 @@
 *.error
 obj/
 tmp/
+etools/StartTs.cmd

@@ -47,7 +47,7 @@ $(CHIBIOS)/os/hal/ports/STM32/LLD/TIMv1/hal_icu_lld.c \
 $(CHIBIOS)/os/hal/ports/STM32/LLD/TIMv1/hal_pwm_lld.c \
 $(CHIBIOS)/os/hal/ports/STM32/LLD/TIMv1/hal_st_lld.c \
 $(CHIBIOS)/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.c \
-$(CHIBIOS)/os/hal/ports/STM32/LLD/USARTv2/hal_uart_lld.c \
+../sc/sw_patch/ChibiOS/USARTv2.1/hal_uart_lld.c \
 $(CHIBIOS)/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.c \
 $(CHIBIOS)/os/hal/ports/STM32/LLD/xWDGv1/hal_wdg_lld.c \
 ${CHIBIOS}/os/hal/osal/rt/osal.c \
@@ -72,7 +72,9 @@ $(CHIBIOS)/os/common/oslib/src/chmempools.c \
 $(CHIBIOS)/os/common/ports/ARMCMx/chcore.c \
 $(CHIBIOS)/os/common/ports/ARMCMx/chcore_v7m.c \
 ../cfg/board/board.c \
-../appl/userinterface/main.c
+../appl/userinterface/main.c \
+../cfg/gen/Os_Cfg.c \
+../sc/OsWrapper/Os.c
 
 CXXSRCS := 
 
@@ -119,7 +121,10 @@ ${CHIBIOS}/test/rt/source/test \
 ../cfg \
 ../appl \
 ../appl/userinterface \
-../appl/misc
+../appl/misc \
+../sc/sw_patch/ChibiOS/USARTv2.1 \
+../cfg/gen \
+../sc/OsWrapper
 
 CDIRS := 
 
