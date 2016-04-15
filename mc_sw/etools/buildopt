@@ -74,7 +74,8 @@ $(CHIBIOS)/os/common/ports/ARMCMx/chcore_v7m.c \
 ../cfg/board/board.c \
 ../appl/userinterface/main.c \
 ../cfg/gen/Os_Cfg.c \
-../sc/OsWrapper/Os.c
+../sc/OsWrapper/Os.c \
+../appl/hardwareabstraction/led/Led.c
 
 CXXSRCS := 
 
@@ -124,7 +125,8 @@ ${CHIBIOS}/test/rt/source/test \
 ../appl/misc \
 ../sc/sw_patch/ChibiOS/USARTv2.1 \
 ../cfg/gen \
-../sc/OsWrapper
+../sc/OsWrapper \
+../appl/hardwareabstraction/led
 
 CDIRS := 
 
@@ -160,7 +162,7 @@ else
   PROJDEF += -DCORTEX_USE_FPU=FALSE
 endif
 
-GENERAL_OPT := -O2 -ggdb -fomit-frame-pointer -falign-functions=16
+GENERAL_OPT := -ggdb3 -fomit-frame-pointer -falign-functions=16
 
 CFLAGS := -c -mcpu=$(MCU) -mthumb -Wextra -Wall \
            $(GENERAL_OPT) \

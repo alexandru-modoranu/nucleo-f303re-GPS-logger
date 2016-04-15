@@ -1,6 +1,10 @@
 #if !defined(LED_H)
 #define LED_H
 
+#include "halconf.h"
+#include "chtypes.h"
+#include "cmparams.h"
+
 typedef enum Led_StateTypeTag
 {
 	LED_STATE_OFF = 0u,
@@ -19,8 +23,8 @@ extern void Led_MainFunction(void);
 extern void Led_Deinit(void);
 extern void Led_SetOn(const Led_IdType id);
 extern void Led_SetOff(const Led_IdType id);
-extern void Led_Toggle(const Led_IdType id, const uint32_t shortRec, const uint8_t shortcycles);
-extern void Led_HeartBeat(const Led_IdType id, const uint32_t shortRec, const uint8_t shortCycles, const uint32_t longRec, const uint8_t longCycles);
+extern void Led_Toggle(const Led_IdType id, const uint32_t activeTime, const uint32_t idleTime);
+extern void Led_HeartBeat(const Led_IdType id, const uint32_t activeTime, const uint8_t activeCycles, const uint32_t idleTime);
 extern Led_StateType Led_GetState(const Led_IdType id);
 
 #endif /* LED_H */

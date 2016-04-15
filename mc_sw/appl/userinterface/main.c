@@ -16,6 +16,7 @@
 
 #include "Os.h"
 #include "hal.h"
+#include "Led.h"
 
 /*
  * Application entry point.
@@ -34,6 +35,9 @@ void main(void) {
      */
   palSetPadMode(GPIOC, 10, PAL_MODE_ALTERNATE(7));	/* USART3_TX */
   palSetPadMode(GPIOC, 11, PAL_MODE_ALTERNATE(7));	/* USART3_RX */
+
+  Led_Init(10u);
+  Led_HeartBeat(LED_ID_USER0, 100u, 2u, 500u);
 
   /*
    * Creates the threads.

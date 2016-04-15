@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 environment/project/0.1545462849/PATH/delimiter=;
-environment/project/0.1545462849/PATH/operation=append
-environment/project/0.1545462849/PATH/value=c\:\\prehd\\tsmirr\\compiler\\GCC_ARM_none_20151219\\bin
+environment/project/0.1545462849/PATH/operation=replace
+environment/project/0.1545462849/PATH/value=d\:\\prg\\apps\\gcc-arm-20160330\\bin
 environment/project/0.1545462849/append=true
 environment/project/0.1545462849/appendContributed=true

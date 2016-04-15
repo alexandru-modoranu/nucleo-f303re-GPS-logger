@@ -33,11 +33,6 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="0.1545462849.1177965052" name="main.c" rcbsApplicability="disable" resourcePath="mc_sw/etools/main.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.795037395.1090148932">
-						<tool id="org.eclipse.cdt.build.core.settings.holder.795037395.1090148932" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.1809989940">
-							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1019705715" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
-						</tool>
-					</fileInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
